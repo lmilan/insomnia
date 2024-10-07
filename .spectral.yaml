@@ -3,7 +3,7 @@ rules:
   tag-description:
     description: Tags must have a description.
     given: $.tags[*]
-    severity: warning
+    severity: warn
     then:
       field: description
       function: truthy
