@@ -1,8 +1,9 @@
+extends: spectral:oas
 rules:
-  my-rule-name:
+  tag-description:
     description: Tags must have a description.
     given: $.tags[*]
-    severity: error
+    severity: warning
     then:
       field: description
       function: truthy
