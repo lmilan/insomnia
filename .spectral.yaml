@@ -1,4 +1,3 @@
-extends: spectral:oas
 rules:
   my-rule-name:
     description: Tags must have a description.
