@@ -1,0 +1,25 @@
+_id: req_a2d8950a676642a9bdf42e563093a500
+type: Request
+parentId: wrk_cbf568b44b9b419c9ca189ce0931477b
+modified: 1728563060030
+created: 1728563060030
+url: "{{ _.base_url }}/flights/{{ _.flightNumber }}"
+name: Get a specific flight by flight number
+description: |
+  Returns a specific flight given its flight number
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: null
+metaSortKey: -1728563060030
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

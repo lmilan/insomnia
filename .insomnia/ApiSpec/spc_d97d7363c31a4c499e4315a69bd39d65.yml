@@ -1,7 +1,7 @@
 _id: spc_d97d7363c31a4c499e4315a69bd39d65
 type: ApiSpec
 parentId: wrk_cbf568b44b9b419c9ca189ce0931477b
-modified: 1728306145783
+modified: 1728563056705
 created: 1728306012710
 fileName: New Document
 contents: >-
@@ -86,7 +86,7 @@ contents: >-
                     $ref: '#/components/schemas/Flight'
                 examples:
                   Example Flights List:
-                    value: |
+                    value: 
                      [
                         {
                           "number": "KD924",
@@ -132,7 +132,7 @@ contents: >-
                   $ref: '#/components/schemas/Flight'
                 examples:
                   Example Flight KD924:
-                    value: |
+                    value: 
                       {
                         "number": "KD924",
                         "route_id": "LHR-SFO",
