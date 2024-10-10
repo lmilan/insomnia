@@ -1,0 +1,28 @@
+_id: req_5dfaf8f624bd4c6b8e455362e13b60b1
+type: Request
+parentId: wrk_8c9cfcd2f31c4733853960ad2c1a5b4e
+modified: 1728569569313
+created: 1728569569313
+url: "{{ _.base_url }}/flights"
+name: Get KongAir planned flights
+description: |
+  Returns all the scheduled flights for a given day
+method: GET
+body: {}
+parameters:
+  - name: date
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+preRequestScript: null
+metaSortKey: -1728569569313
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

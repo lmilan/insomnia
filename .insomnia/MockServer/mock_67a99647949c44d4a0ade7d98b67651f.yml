@@ -1,0 +1,8 @@
+_id: mock_67a99647949c44d4a0ade7d98b67651f
+type: MockServer
+parentId: wrk_8c9cfcd2f31c4733853960ad2c1a5b4e
+modified: 1728569112747
+created: 1728569112747
+name: Flights
+url: http://localhost:8080
+useInsomniaCloud: true
