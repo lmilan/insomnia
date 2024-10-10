@@ -1,0 +1,27 @@
+_id: req_0c5e314fb2264ccaafd7a86647ec29fa
+type: Request
+parentId: fld_96005cb58ac94881ad65c3771d7eaee2
+modified: 1711997964110
+created: 1711997964110
+url: "{{ _.base_url }}/cloud-gateways/networks/{{ _.id }}"
+name: Delete a cloud gateway network.
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearerToken }}"
+  prefix: ""
+preRequestScript: null
+metaSortKey: -1711997964110
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

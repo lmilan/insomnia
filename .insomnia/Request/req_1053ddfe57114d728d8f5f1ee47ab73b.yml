@@ -1,0 +1,36 @@
+_id: req_1053ddfe57114d728d8f5f1ee47ab73b
+type: Request
+parentId: wrk_93ea86b19291459ea994ef09a7376c91
+modified: 1711998034437
+created: 1711997964114
+url: https://us.api.konghq.com/v2/cloud-gateways/cloud-gateways/resource-quotas/{{
+  _.resourceQuotaId }}
+name: Patch a resource quota by ID.
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "value": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: bearer
+  token: kpat_iIGUb6bPml2G6WUSPnZMLdty6pwgUf8GIJbSlBlasg6w4y1cS
+  prefix: ""
+preRequestScript: null
+metaSortKey: -1711997964114
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

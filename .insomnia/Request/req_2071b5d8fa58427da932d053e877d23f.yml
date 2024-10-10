@@ -1,0 +1,34 @@
+_id: req_2071b5d8fa58427da932d053e877d23f
+type: Request
+parentId: wrk_93ea86b19291459ea994ef09a7376c91
+modified: 1711997964108
+created: 1711997964108
+url: "{{ _.base_url }}/cloud-gateways/configurations"
+name: List configurations across control-planes for an organization (restricted
+  by permitted control-plane reads).
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "[object Object]"
+  - name: filter
+    disabled: true
+    value: "[object Object]"
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearerToken }}"
+  prefix: ""
+preRequestScript: null
+metaSortKey: -1711997964108
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_016027f3ace54274a5ecdc6f05165a0c
+type: Request
+parentId: wrk_93ea86b19291459ea994ef09a7376c91
+modified: 1711997964110
+created: 1711997964110
+url: "{{ _.base_url }}/cloud-gateways/networks/{{ _.networkId
+  }}/transit-gateways/{{ _.transitGatewayId }}"
+name: Retrieve a transit gateway by ID.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearerToken }}"
+  prefix: ""
+preRequestScript: null
+metaSortKey: -1711997964110
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

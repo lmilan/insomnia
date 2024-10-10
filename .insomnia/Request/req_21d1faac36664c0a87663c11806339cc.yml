@@ -1,0 +1,31 @@
+_id: req_21d1faac36664c0a87663c11806339cc
+type: Request
+parentId: fld_96005cb58ac94881ad65c3771d7eaee2
+modified: 1712768042191
+created: 1711997964111
+url: https://us.api.konghq.com/v2/cloud-gateways/networks/0e465f2f-4fa3-43ed-8900-bb6210c1e554/configuration-references
+name: |
+  List all cloud gateway network configurations that reference a network.
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "[object Object]"
+headers: []
+authentication:
+  type: bearer
+  token: kpat_wNWXSQqu2P93XDrThTZX67cDAixply71yWTJcHGV5WOARWiJA
+  prefix: ""
+preRequestScript: null
+metaSortKey: -1711997964111
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

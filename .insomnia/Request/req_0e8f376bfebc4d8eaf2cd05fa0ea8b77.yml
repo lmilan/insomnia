@@ -1,0 +1,36 @@
+_id: req_0e8f376bfebc4d8eaf2cd05fa0ea8b77
+type: Request
+parentId: fld_96005cb58ac94881ad65c3771d7eaee2
+modified: 1711997964110
+created: 1711997964110
+url: "{{ _.base_url }}/cloud-gateways/networks/{{ _.id }}"
+name: Patch updatable properties of a cloud gateway network.
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "us-east-2 network",
+      "firewall": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearerToken }}"
+  prefix: ""
+preRequestScript: null
+metaSortKey: -1711997964110
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

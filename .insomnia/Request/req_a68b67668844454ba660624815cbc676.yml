@@ -1,0 +1,36 @@
+_id: req_a68b67668844454ba660624815cbc676
+type: Request
+parentId: wrk_93ea86b19291459ea994ef09a7376c91
+modified: 1711997964113
+created: 1711997964113
+url: "{{ _.base_url }}/control-planes/terminate"
+name: Terminate related cloud-gateways resources for a control-plane that has
+  been deleted.
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "control_plane_id": "84bdec52-27ae-4a71-bd17-20af54bb7ee0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearerToken }}"
+  prefix: ""
+preRequestScript: null
+metaSortKey: -1711997964113
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

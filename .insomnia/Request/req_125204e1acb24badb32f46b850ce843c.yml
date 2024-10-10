@@ -1,0 +1,28 @@
+_id: req_125204e1acb24badb32f46b850ce843c
+type: Request
+parentId: wrk_93ea86b19291459ea994ef09a7376c91
+modified: 1711997964107
+created: 1711997964107
+url: "{{ _.base_url }}/cloud-gateways/availability.json"
+name: >
+  Get Cloud Gateways Availability JSON document for describing cloud provider
+  and region availability, pricing,
+
+  gateway version availability, and instance type information.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+preRequestScript: null
+metaSortKey: -1711997964107
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

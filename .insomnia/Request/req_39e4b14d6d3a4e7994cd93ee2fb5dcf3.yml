@@ -1,0 +1,28 @@
+_id: req_39e4b14d6d3a4e7994cd93ee2fb5dcf3
+type: Request
+parentId: wrk_93ea86b19291459ea994ef09a7376c91
+modified: 1711997964111
+created: 1711997964111
+url: "{{ _.base_url }}/cloud-gateways/networks/{{ _.networkId
+  }}/transit-gateways/{{ _.transitGatewayId }}"
+name: Delete a transit gateway.
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearerToken }}"
+  prefix: ""
+preRequestScript: null
+metaSortKey: -1711997964111
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
