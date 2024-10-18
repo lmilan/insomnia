@@ -1,0 +1,5 @@
+options:
+  ci: false
+scripts:
+  lint-flights: inso lint spec "Flights Service 0.1.0"
+  run-flights: inso run collection "Flights Service 0.1.0"
