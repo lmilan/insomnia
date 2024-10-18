@@ -1,9 +1,9 @@
-_id: spc_d97d7363c31a4c499e4315a69bd39d65
+_id: spc_7b16a721096845e69b46f327a49376ce
 type: ApiSpec
-parentId: wrk_cbf568b44b9b419c9ca189ce0931477b
-modified: 1728563056705
-created: 1728306012710
-fileName: New Document
+parentId: wrk_8086218b69d74bcea1d742baa9f1902d
+modified: 1728914237757
+created: 1728907918775
+fileName: Flights Service 0.1.0
 contents: >-
   ---
 
@@ -86,7 +86,7 @@ contents: >-
                     $ref: '#/components/schemas/Flight'
                 examples:
                   Example Flights List:
-                    value: 
+                    value: |
                      [
                         {
                           "number": "KD924",
@@ -132,7 +132,7 @@ contents: >-
                   $ref: '#/components/schemas/Flight'
                 examples:
                   Example Flight KD924:
-                    value: 
+                    value: |
                       {
                         "number": "KD924",
                         "route_id": "LHR-SFO",
@@ -224,4 +224,7 @@ contents: >-
           - in_flight_entertainment
           - mean_options
           - aircraft_type
+
+  tags:
+    - name: flight-data
 contentType: yaml
