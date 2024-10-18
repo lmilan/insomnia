@@ -1,7 +1,7 @@
 _id: spc_7b16a721096845e69b46f327a49376ce
 type: ApiSpec
 parentId: wrk_8086218b69d74bcea1d742baa9f1902d
-modified: 1728914237757
+modified: 1729239246642
 created: 1728907918775
 fileName: Flights Service 0.1.0
 contents: >-
@@ -46,7 +46,7 @@ contents: >-
           '500':
             description: Service is unhealthy
             content:
-              application/json:
+              application/json: 
                 schema:
                   type: object
                   properties:
